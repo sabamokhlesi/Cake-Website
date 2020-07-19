@@ -1,0 +1,60 @@
+.steps{
+    text-align: center;
+    background-image: url(../../../photos/steps-bg2.png);
+    background-position: bottom right;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    padding-bottom: 25rem;
+    padding-top: 5rem;
+    // @media only screen and (max-width:$bp-small) {padding-bottom: 23rem;}
+    
+}
+
+.text{
+    grid-column: 3/9;
+    grid-row: 1/2;
+    margin: 0 auto 3rem auto;
+    width: 60%;
+    // h3{color: $color-primary;}
+    // @media only screen and (max-width:$bp-large) {width: 80%;}
+    // @media only screen and (max-width:$bp-medium) {grid-column: 2/10; margin-bottom: 0; width: 100%;}
+    h4{
+        padding: 3rem 0;
+    }
+}
+
+.cards{
+    grid-column: 3/9;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+    i{
+        margin:3rem 0;
+        // @media only screen and (max-width:$bp-small) {margin: 1rem;}
+    }
+    justify-self: center;
+    // // @media only screen and (max-width:$bp-larger) {
+    //     grid-column: 2/10;
+    //     justify-content: space-evenly;
+    // }
+    // @media only screen and (max-width:$bp-medium) {grid-column: 1/11;}
+    // @media only screen and (max-width:$bp-small) {flex-direction: column;}
+    }
+
+.box{
+    max-width: 23%;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 1rem 4rem rgba(10, 10, 10, 0.144);
+    border-radius: 0 30px;
+    background-color: rgba(255, 255, 255, 0.795);
+    // @media only screen and (max-width:$bp-small) {max-width: 100%; margin:3% 5%; display: block;}
+    i{
+        // color: $color-primary;
+        font-size: 4rem;
+    }
+
+}

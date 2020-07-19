@@ -1,0 +1,24 @@
+.header{
+    min-height: 100vh;
+    background-image: url(../../../photos/header-bg2.jpg);
+    background-size: cover;
+    background-position: top left;
+
+    img{
+        width: 47%;
+        padding: 5% 5% 0 0;
+    };
+}
+
+.headerMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.headerText{
+    width: 38%;
+    padding-left: 10%;
+    padding-top: 2rem;
+}

@@ -1,0 +1,56 @@
+// COLOR VARIABLES
+$color-primary: #fcb2af;
+$color-primary-light: #fce6e5;
+$color-primary-dark: #fd706b;
+
+$color-secondary: #abd8db;
+$color-secondary-dark: #73d4db;
+$color-secondary-light: #cedfe0;
+
+$color-grey-light-1: #dadfe2;
+$color-grey-light-2: #c2c7ca;
+
+$color-grey-dark-1: #353638;
+$color-grey-dark-2: #4c4f52;
+$color-grey-dark-3: #828385;
+// SHAHOW VARIABLES
+$shadow-light: 0 1rem 4rem rgba(90, 90, 90, 0.295);
+$shadow-lighter: 0 1rem 4rem rgba(255, 255, 255, 0.116);
+$shadow-dark:0 1rem 4rem rgba(255, 255, 255, 0.349);
+.features{
+    width: 70%;
+    background-color: #fdf1f1;
+    // border: 3px solid $color-primary;
+    border-radius: 0 17rem;
+    margin: 0 auto;
+    margin-bottom: 16rem;
+    padding: 4rem;
+    padding-bottom: 0;
+    h2{padding-bottom: 0; text-align: center;}
+    // @media only screen and (max-width:$bp-largest) {padding: 2rem; h4{padding: 0;} }
+    // @media only screen and (max-width:$bp-medium) {margin: 4rem 3rem; grid-column: 1/-1;}
+    &-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row: repeat(2,1fr);
+        align-items: top;
+        justify-items: center;
+        // @media only screen and (max-width:$bp-small) {display: block; margin: 0 auto; }
+        img{
+            width: 120%;
+            grid-area: 2/2/3/3;
+            padding-bottom: 17rem;
+            transform: translateY(7rem) translateX(7rem);
+            // @media only screen and (max-width:$bp-large) {padding-bottom: 10rem; }
+            // @media only screen and (max-width:$bp-small) {width: 100%; transform: translateY(3rem) translateX(0);}
+        }
+    }
+    &-text{
+        width: 80%;
+        padding-top: 10rem;
+        // @media only screen and (max-width:$bp-largest) {padding-top: 6rem; }
+        // @media only screen and (max-width:$bp-large) {padding: 2rem; width: 90%;}
+        // @media only screen and (max-width:$bp-small) {width: auto; padding: 2rem 3rem;}
+        i{color: $color-secondary-dark; font-size: 3rem;}
+    } 
+}

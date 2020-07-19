@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-end;
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            text-decoration: none;
+            padding: 1rem 2rem;
+            margin-bottom: 5rem;
+            transition: all .3s;
+            a{
+                text-decoration: none;
+                color: inherit;
+                font-weight: 900;
+            }
+            &:hover{
+                transform: translateY(-.5rem) scale(1.1);
+                color: #fd706b;
+            }
+        }
+    }
+    img{
+        width: 15%;
+    }
+    &-legal{
+        padding: 2rem;
+        span{
+            color: #73d4db;
+            font-weight: 900;
+        }
+    }
+}
