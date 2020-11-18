@@ -20,7 +20,7 @@ const menu = (props) => (
                                 <div class="card-text-heading-main">Kids Favorites</div>
                                 <div class="card-text-heading-secondary">Including cartoon Charactors and so on</div>
                             </div>
-                            <div class="card-text-heading-price">+$99</div>
+                            <div class="card-text-heading-price">$99+</div>
                         </div>
                         <div class="card-text-details">
                             <p>The price of these cakes start from $99 based on the cake you choose, you will be able to customize each cake and you are welcome to ask us to make it gluten free, peanut free or vegan.</p>
@@ -39,11 +39,11 @@ const menu = (props) => (
                 </div>
                 <div class="card_side card_side--back card_side--back-1">
                     <div class="card_cta">
-                        <div class="card_price-box">
-                            <p class="card_price-only">only</p>
-                            <p class="card_price-value">$78</p>
+                        <div class="card_price-box card_price-box-1">
+                            <p class="card_price-only">See</p>
+                            <p class="card_price-value">More</p>
                         </div>
-                        <a href="#popup" class="btn btn-primary">+</a>
+                        {/* <a href="#popup" class="btn btn-primary">+</a> */}
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ const menu = (props) => (
                                 <div class="card-text-heading-main">Classic Cakes</div>
                                 <div class="card-text-heading-secondary">100% customizable</div>
                             </div>
-                            <div class="card-text-heading-price">+$79</div>
+                            <div class="card-text-heading-price">$79+</div>
                         </div>
                         <div class="card-text-details">
                             <p>You can choose from a veriety of classic cakes designs and you will be able to customize the toppings, flavors, etc. Also you are welcome to ask us to make it gluten free, peanut free or vegan for you.</p>
@@ -78,11 +78,11 @@ const menu = (props) => (
                 </div>
                 <div class="card_side card_side--back card_side--back-2">
                     <div class="card_cta">
-                        <div class="card_price-box">
-                            <p class="card_price-only">only</p>
-                            <p class="card_price-value">$26</p>
+                        <div class="card_price-box card_price-box-2">
+                            <p class="card_price-only">See</p>
+                            <p class="card_price-value">More</p>
                         </div>
-                        <a href="#popup" class="btn btn-primary">+</a>
+                        {/* <a href="#popup" class="btn btn-primary">+</a> */}
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ const menu = (props) => (
                                 <div class="card-text-heading-main">Special Desserts</div>
                                 <div class="card-text-heading-secondary">A Variety of Home-Made Style Desserts</div>
                             </div>
-                            <div class="card-text-heading-price">+$59</div>
+                            <div class="card-text-heading-price">$59+</div>
                         </div>
                         <div class="card-text-details">
                             <p>Choose from a veriety of cheese cakes, tarts, etc. Just like our other products you can customize your order. You are welcome to ask us to make it gluten free, peanut free or vegan for you. </p>
@@ -117,11 +117,11 @@ const menu = (props) => (
                 </div>
                 <div class="card_side card_side--back card_side--back-1">
                     <div class="card_cta">
-                        <div class="card_price-box">
-                            <p class="card_price-only">only</p>
-                            <p class="card_price-value">$25</p>
+                        <div class="card_price-box card_price-box-1">
+                            <p class="card_price-only">See</p>
+                            <p class="card_price-value">More</p>
                         </div>
-                        <a href="#popup" class="btn btn-primary">+</a>
+                        {/* <a href="#popup" class="btn btn-primary">+</a> */}
                     </div>
                 </div>
             </div>

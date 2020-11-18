@@ -4,9 +4,10 @@
     justify-content: space-between;
     // align-items: center;
     height: 8rem;
+    @media only screen and (max-width:45em) {height: 6rem;}
 }
 .start{
-    flex: 0 0 12%;
+    width: max-content;
     text-align: center;
     background-color: #fd706b;
     height: 100%;
@@ -17,6 +18,8 @@
     color: white;
     font-size: 1.7rem;
     cursor: pointer;
+    padding: 0 3rem;
+    @media only screen and (max-width:45em) {padding: 0 2rem;}
 }
 .list{
     list-style: none;
@@ -25,6 +28,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 4rem;
+    @media only screen and (max-width:55em) {display: none;}
 }
 
 .logo{
@@ -34,4 +38,6 @@
     color: black;
     padding:4rem 3rem 3rem 6rem;
     color: #633e3d;
+    align-self: center;
+    @media only screen and (max-width:45em) {padding:3rem 1rem 2rem 5rem;}
 }

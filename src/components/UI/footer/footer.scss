@@ -6,11 +6,13 @@
     ul{
         display: flex;
         list-style: none;
+        margin-bottom: 5rem;
+        @media only screen and (max-width:40rem) {flex-wrap: wrap; justify-items: center; margin-bottom: 2rem; margin-top: 3rem;}
         li{
             text-decoration: none;
             padding: 1rem 2rem;
-            margin-bottom: 5rem;
             transition: all .3s;
+            @media only screen and (max-width:40rem) {padding: 1rem 1.5rem;}
             a{
                 text-decoration: none;
                 color: inherit;

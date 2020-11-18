@@ -13,8 +13,8 @@ const header = (props) => (
                  <h1 className='heading-1'>Birthdays Have Never Been This Fun!</h1>  
                  <h3 className='heading-3'>Build and design the cake you love and we'll take care of the rest...</h3> 
                  <div>
-                    <button className='btn btn-primary'>Learn More</button>
-                    <button className='btn btn-secondary'>Start Now</button>
+                    <button className='btn btn-primary'>I Want a Cake</button>
+                    <button className='btn btn-secondary'>Learn More</button>
                  </div>
             </div>
             <img src={headerPhoto} alt="MyBurger" />

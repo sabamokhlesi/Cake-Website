@@ -14,7 +14,7 @@ const features = (props) => (
             <div class="features-text">
                 <i class="fas fa-undo"></i>
                 <h4 class="heading-4">Hygiene Is Our Priority</h4>
-                <h5 class="heading-5">Our bakers follow the most strict hegiene principals. Health inspectors visit the bakeries every now and then to check the situation where cake are prepared in.</h5>
+                <h5 class="heading-5">Our bakers follow the most strict hygiene principals. Health inspectors visit the bakeries every now and then to check the situation where cake are prepared in.</h5>
             </div>
             <div class="features-text">
                 <i class="fas fa-comments"></i>

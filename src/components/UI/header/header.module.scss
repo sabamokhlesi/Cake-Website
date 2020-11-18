@@ -1,12 +1,14 @@
 .header{
-    min-height: 100vh;
     background-image: url(../../../photos/header-bg2.jpg);
     background-size: cover;
     background-position: top left;
+    padding-bottom: 5rem;
 
     img{
         width: 47%;
         padding: 5% 5% 0 0;
+        @media only screen and (max-width:70em) {width: 40%;}
+        @media only screen and (max-width:42em) {padding: 0; width: 60%; margin-bottom: -6rem;}
     };
 }
 
@@ -14,11 +16,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    @media only screen and (max-width:70em) {padding-top: 5rem;}
+    @media only screen and (max-width:42em) {flex-direction: column-reverse;}
 }
 
 .headerText{
     width: 38%;
     padding-left: 10%;
     padding-top: 2rem;
+    
+    @media only screen and (max-width:70em) {h1{font-size: 3rem;} width: 43%;}
+    @media only screen and (max-width:42em) {width: 80%; text-align: center; padding: 0; padding-bottom: 7rem;}
+    
 }

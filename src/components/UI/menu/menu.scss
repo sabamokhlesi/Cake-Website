@@ -29,11 +29,10 @@ $shadow-dark:0 1rem 4rem rgba(255, 255, 255, 0.349);
     background-image: url(../../../photos/menu-bg.jpg);
     background-size: cover;
     background-position: bottom left;
-    // @media only screen and (max-width:$bp-larger) {grid-column: 1/9; margin: 0 4rem;}
-    // @media only screen and (max-width:$bp-small) {margin-top: -4rem;}
+    @media only screen and (max-width:55em) {background-position: center;}
     &-text{
         margin: 0 auto 3rem auto;
-        width: 60%;
+        width: 75%;
         h3{color: $color-primary-light;}
         // @media only screen and (max-width:$bp-medium) {width: 80%;}
         // @media only screen and (max-width:$bp-small) {width: 100%; margin-bottom: 0;}
@@ -43,11 +42,14 @@ $shadow-dark:0 1rem 4rem rgba(255, 255, 255, 0.349);
         justify-content:space-between;
         width: 70%;
         margin-bottom: 4rem;
+        @media only screen and (max-width:80em) {width: 90%; margin-bottom: 5rem;}
+        @media only screen and (max-width:55em) {flex-direction: column;}
         // @media only screen and (max-width:$bp-medium) {flex-direction: column; justify-content: center;}
     }
     &-btn{ 
         align-self: center;
         margin-top: 5rem;
+        background-color: rgba(255, 255, 255, 0.61);
         // @media only screen and (max-width:$bp-small) {margin-top: 0;}
     }
 }
@@ -58,15 +60,16 @@ $shadow-dark:0 1rem 4rem rgba(255, 255, 255, 0.349);
     position: relative;
     min-height: 50rem;
     flex: 0 0 31%;
-    // @media only screen and (max-width:$bp-medium) {
-    //     flex: 1;
-    //     margin-right: 4%;
-    //     margin-left: 4%;
-    //     &:not(:last-child) {margin-bottom: 12%;}
-    // }
-    // @media only screen and (max-width:$bp-small) {
-    //     &:not(:last-child) {margin-bottom: 24%;}
-    // }
+    @media only screen and (max-width:55em) {margin-right: 23%; margin-left: 23%; &:not(:last-child) {margin-bottom: 12%;}}
+    @media only screen and (max-width:30em) {
+        flex: 1;
+        margin-right: 8%;
+        margin-left: 8%;
+        align-items: center;
+    }
+    @media only screen and (max-width:35em) {
+        &:not(:last-child) {margin-bottom: 24%;}
+    }
     &_side{
         overflow: hidden;
         min-height: 55rem;
@@ -81,7 +84,7 @@ $shadow-dark:0 1rem 4rem rgba(255, 255, 255, 0.349);
         
 
         &--front{
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.685);
         }
         &--back{
             border-radius: 40px 0;
@@ -184,6 +187,28 @@ $shadow-dark:0 1rem 4rem rgba(255, 255, 255, 0.349);
         text-align: center;
         margin-bottom: 2rem;
         color: white;
+        width: 15rem;
+        height: 15rem;
+        border-radius: 500px;
+        padding: 2rem;
+        margin: auto;
+        transition: all .3s;
+        &:hover{
+            cursor: pointer;
+        }
+        &-1{
+            transition: all .3s;
+            &:hover{
+                background-image :  linear-gradient(to top left , $color-primary-light , $color-primary);
+            }
+            
+        }
+        &-2{
+            transition: all .3s;
+            &:hover{
+                background-image :  linear-gradient(to top left , $color-secondary-light, $color-secondary);
+            }
+        }
     }
 
     &_price-only{

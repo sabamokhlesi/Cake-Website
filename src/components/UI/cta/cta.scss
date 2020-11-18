@@ -17,8 +17,19 @@ $color-grey-dark-3: #828385;
     padding-top: 10rem;
     text-align: center;
     transform: translateY(20%);
-    h2{padding-bottom: 1rem; font-size: 4.5rem;}
-    h4{padding-bottom: 2rem; color: $color-secondary-dark; font-size: 2.6rem; font-family: 'Mali', cursive;}
+    @media only screen and (max-width:60rem) {transform: translateY(0);}
+    h2{
+        padding-bottom: 
+        1rem; font-size: 4.5rem;
+        @media only screen and (max-width:60rem) {font-size: 3rem; padding: 1rem;}
+    }
+    h4{
+        padding-bottom: 2rem; 
+        color: $color-secondary-dark; 
+        font-size: 2.6rem; 
+        font-family: 'Mali', cursive;
+        @media only screen and (max-width:60rem) {font-size: 2rem; padding: 2rem 3rem;}
+    }
     &-btn{
         position: relative;
         cursor: pointer;
@@ -32,13 +43,13 @@ $color-grey-dark-3: #828385;
         font-weight: bold;
         color: white;
         background-image: linear-gradient(to right , $color-primary-light,$color-primary-dark);
-        // @media only screen and (max-width:$bp-medium) {margin-top: 3rem;}
+        @media only screen and (max-width:50rem) {margin-bottom: 2rem; }
         
         &-visible{
             display: inline-block;
             padding:3rem 6.5rem;
             transition: all .2s;
-            // @media only screen and (max-width:$bp-medium) {padding:2rem 3rem;}
+            @media only screen and (max-width:40rem) {padding:2.5rem 3rem;}
         }
         &-invisible{
             display: inline-block;
@@ -49,7 +60,7 @@ $color-grey-dark-3: #828385;
             top: -100%;
             left: 0rem;
             transition: all .2s;
-            // @media only screen and (max-width:$bp-medium) {padding:2rem 0;}
+            @media only screen and (max-width:40rem) {padding:2.5rem 0;}
         }
         &:hover{background-image: linear-gradient(to left , $color-secondary-light,$color-secondary-dark);}
         &:hover &-invisible{top: 0;left: 0rem;}
